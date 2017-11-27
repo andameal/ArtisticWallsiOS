@@ -7,11 +7,31 @@
 //
 
 import UIKit
+import os.log
 
 class ProjectTableViewController: UITableViewController {
 
     
     var projects = [Project]()
+    
+    // actions **
+    @IBAction func unwindToProjectList(sender: UIStoryboardSegue) {
+        if let sourceViewController = sender.source as?
+            ProjectViewController, let project = sourceViewController.project {
+            
+            if let selectedIndexPath = tableView.indexPathForSelectedRow {
+                // Update an existing project
+                projects[selectedIndexPath.row] = project
+                tableView.reloadRows(at: [selectedIndexPath], with: .none)
+            } else {
+                // add a new project
+                let newIndexPath = IndexPath(row: projects.count, section: 0)
+                
+                projects.append(project)
+                tableView.insertRows(at: [newIndexPath], with: .automatic)
+            }
+        }
+    }
     
     private func loadSampleProjects() {
         
@@ -25,6 +45,9 @@ class ProjectTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        // Use the edit button item provided by the table view controller.
+        navigationItem.leftBarButtonItem = editButtonItem
+        
         // sample data
         loadSampleProjects()
     }
@@ -59,31 +82,32 @@ class ProjectTableViewController: UITableViewController {
         
         // Configure the cell
         cell.nameLabel.text = project.name
-        cell.costLabel.text = String(project.cost)
+        cell.costLabel.text = "Cost: " + String(project.cost)
 
         return cell
     }
  
 
-    /*
+    
     // Override to support conditional editing of the table view.
     override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
         // Return false if you do not want the specified item to be editable.
         return true
     }
-    */
+ 
 
-    /*
+    
     // Override to support editing the table view.
     override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == .delete {
             // Delete the row from the data source
+            projects.remove(at: indexPath.row)
             tableView.deleteRows(at: [indexPath], with: .fade)
         } else if editingStyle == .insert {
             // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-        }    
+        }
     }
-    */
+ 
 
     /*
     // Override to support rearranging the table view.
@@ -100,14 +124,36 @@ class ProjectTableViewController: UITableViewController {
     }
     */
 
-    /*
+    
     // MARK: - Navigation
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    // For a storyboard-based application, preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+        super.prepare(for: segue, sender: sender)
+        
+        switch(segue.identifier ?? "") {
+            
+        case "AddItem":
+            os_log("Adding a new project.", log: OSLog.default, type: .debug)
+            
+        case "ShowDetail":
+            guard let projectDetailViewController = segue.destination as? ProjectViewController else {
+                fatalError("Unexpected destination: \(segue.destination)")
+            }
+            
+            guard let selectedProjectCell = sender as? ProjectTableViewCell else {
+                fatalError("Unexpected sender: \(sender)")
+            }
+            
+            guard let indexPath = tableView.indexPath(for: selectedProjectCell) else {
+                fatalError("The selected cell is not being displayed by the table")
+            }
+            
+            let selectedProject = projects[indexPath.row]
+            projectDetailViewController.project = selectedProject
+            
+        default:
+            fatalError("Unexpected Segue Identifier; \(segue.identifier)")
+        }
     }
-    */
-
 }

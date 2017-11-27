@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3D95A0801FBCBD36003516EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D95A07F1FBCBD36003516EC /* AppDelegate.swift */; };
-		3D95A0821FBCBD36003516EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D95A0811FBCBD36003516EC /* ViewController.swift */; };
+		3D95A0821FBCBD36003516EC /* ProjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D95A0811FBCBD36003516EC /* ProjectViewController.swift */; };
 		3D95A0851FBCBD39003516EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D95A0831FBCBD39003516EC /* Main.storyboard */; };
 		3D95A0871FBCBD3B003516EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D95A0861FBCBD3B003516EC /* Assets.xcassets */; };
 		3D95A08A1FBCBD3B003516EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D95A0881FBCBD3B003516EC /* LaunchScreen.storyboard */; };
@@ -32,7 +32,7 @@
 /* Begin PBXFileReference section */
 		3D95A07C1FBCBD35003516EC /* ArtisticWalls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArtisticWalls.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D95A07F1FBCBD36003516EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3D95A0811FBCBD36003516EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3D95A0811FBCBD36003516EC /* ProjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectViewController.swift; sourceTree = "<group>"; };
 		3D95A0841FBCBD39003516EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3D95A0861FBCBD3B003516EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D95A0891FBCBD3B003516EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -86,7 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				3D95A07F1FBCBD36003516EC /* AppDelegate.swift */,
-				3D95A0811FBCBD36003516EC /* ViewController.swift */,
+				3D95A0811FBCBD36003516EC /* ProjectViewController.swift */,
 				3D95A0A11FBD51BA003516EC /* ProjectTableViewController.swift */,
 				3D95A09F1FBD4DD4003516EC /* ProjectTableViewCell.swift */,
 				3D95A0A31FBD5276003516EC /* Project.swift */,
@@ -213,7 +213,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D95A0821FBCBD36003516EC /* ViewController.swift in Sources */,
+				3D95A0821FBCBD36003516EC /* ProjectViewController.swift in Sources */,
 				3D95A0A61FBD52DF003516EC /* Component.swift in Sources */,
 				3D95A0A01FBD4DD4003516EC /* ProjectTableViewCell.swift in Sources */,
 				3D95A0A21FBD51BA003516EC /* ProjectTableViewController.swift in Sources */,
@@ -430,6 +430,7 @@
 				3D95A09B1FBCBD3D003516EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3D95A09C1FBCBD3D003516EC /* Build configuration list for PBXNativeTarget "ArtisticWallsTests" */ = {
 			isa = XCConfigurationList;
@@ -438,6 +439,7 @@
 				3D95A09E1FBCBD3D003516EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
