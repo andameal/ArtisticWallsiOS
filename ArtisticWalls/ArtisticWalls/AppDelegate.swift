@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import FireBase
+import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
