@@ -14,7 +14,7 @@ struct Project {
     let addedByUser:String!
     let itemRef: DatabaseReference?
     
-    init(content:String, addedByUser:String, key:String) {
+    init(content:String, addedByUser:String, key:String = "") {
         self.key = key
         self.content = content
         self.addedByUser = addedByUser
@@ -35,6 +35,9 @@ struct Project {
         } else {
             addedByUser = ""
         }
+    }
+    func toAny() -> Any {
+        return ["content": content, "addedByUser": addedByUser]
     }
 }
 

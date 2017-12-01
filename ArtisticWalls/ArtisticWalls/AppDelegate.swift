@@ -7,7 +7,8 @@
 //
 
 import UIKit
-import FireBase
+import Firebase
+import FirebaseAuth
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,9 +17,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        
         FirebaseApp.configure()
-        // Override point for customization after application launch.
+        
+        // Auth.auth().createUser(withEmail: "toppinsb@gmail.com", password: "123456")
+        
+        Auth.auth().signIn(withEmail: "toppinsb@gmail.com", password: "123456")
+        
+        
         return true
     }
 

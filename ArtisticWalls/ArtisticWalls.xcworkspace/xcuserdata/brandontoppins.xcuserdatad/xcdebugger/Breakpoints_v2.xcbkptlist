@@ -77,14 +77,14 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "20"
             endingLineNumber = "20"
-            landmarkName = "viewDidLoad()"
-            landmarkType = "7">
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ArtisticWalls/ProjectsTableViewController.swift"
@@ -93,11 +93,11 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "14"
             endingLineNumber = "14"
-            landmarkName = "viewDidLoad()"
-            landmarkType = "7">
+            landmarkName = "unknown"
+            landmarkType = "0">
             <Locations>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "ArtisticWalls.ProjectsTableViewController.dbRef.getter : Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.DatabaseReference&gt;"
@@ -112,7 +112,7 @@
                   offsetFromSymbolStart = "106">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "ArtisticWalls.ProjectsTableViewController.dbRef.setter : Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.DatabaseReference&gt;"
@@ -127,7 +127,7 @@
                   offsetFromSymbolStart = "112">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "ArtisticWalls.ProjectsTableViewController.init(style: __C.UITableViewStyle) -&gt; ArtisticWalls.ProjectsTableViewController"
@@ -142,7 +142,7 @@
                   offsetFromSymbolStart = "28">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "ArtisticWalls.ProjectsTableViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; ArtisticWalls.ProjectsTableViewController"
@@ -157,7 +157,7 @@
                   offsetFromSymbolStart = "77">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "ArtisticWalls.ProjectsTableViewController.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;ArtisticWalls.ProjectsTableViewController&gt;"
@@ -193,7 +193,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ArtisticWalls/ProjectsTableViewController.swift"
@@ -202,11 +202,11 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "15"
             endingLineNumber = "15"
-            landmarkName = "viewDidLoad()"
-            landmarkType = "7">
+            landmarkName = "unknown"
+            landmarkType = "0">
             <Locations>
                <Location
-                  shouldBeEnabled = "No"
+                  shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "ArtisticWalls.ProjectsTableViewController.dbRef.getter : Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.DatabaseReference&gt;"
@@ -221,7 +221,7 @@
                   offsetFromSymbolStart = "106">
                </Location>
                <Location
-                  shouldBeEnabled = "No"
+                  shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "ArtisticWalls.ProjectsTableViewController.dbRef.setter : Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.DatabaseReference&gt;"
@@ -236,7 +236,7 @@
                   offsetFromSymbolStart = "112">
                </Location>
                <Location
-                  shouldBeEnabled = "No"
+                  shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "ArtisticWalls.ProjectsTableViewController.init(style: __C.UITableViewStyle) -&gt; ArtisticWalls.ProjectsTableViewController"
@@ -251,7 +251,7 @@
                   offsetFromSymbolStart = "28">
                </Location>
                <Location
-                  shouldBeEnabled = "No"
+                  shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "ArtisticWalls.ProjectsTableViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; ArtisticWalls.ProjectsTableViewController"
@@ -266,7 +266,7 @@
                   offsetFromSymbolStart = "77">
                </Location>
                <Location
-                  shouldBeEnabled = "No"
+                  shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "ArtisticWalls.ProjectsTableViewController.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;ArtisticWalls.ProjectsTableViewController&gt;"
@@ -286,7 +286,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ArtisticWalls/ProjectsTableViewController.swift"
@@ -295,14 +295,14 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "16"
             endingLineNumber = "16"
-            landmarkName = "viewDidLoad()"
-            landmarkType = "7">
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ArtisticWalls/ProjectsTableViewController.swift"
@@ -311,8 +311,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "17"
             endingLineNumber = "17"
-            landmarkName = "viewDidLoad()"
-            landmarkType = "7">
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -327,14 +327,14 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "18"
             endingLineNumber = "18"
-            landmarkName = "viewDidLoad()"
-            landmarkType = "7">
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ArtisticWalls/ProjectsTableViewController.swift"
@@ -343,8 +343,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "19"
             endingLineNumber = "19"
-            landmarkName = "viewDidLoad()"
-            landmarkType = "7">
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
